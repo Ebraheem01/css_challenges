@@ -1,0 +1,83 @@
+/* base styles */
+/* General setup */
+/* Remember to always comment*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  
+body {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 14px; 
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+header {
+  background-color: darkturquoise;
+}
+
+footer {
+  background-color: darkturquoise;
+}
+
+main {
+  background-color: red;
+}
+
+/* styling the headings */
+
+h {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 10px;
+
+}
+
+/* styling the section */
+/* indenting the section */
+
+section {
+    text-indent: 20px;
+}

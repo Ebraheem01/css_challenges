@@ -58,6 +58,24 @@ header {
   background-color: darkturquoise;
 }
 
+a:hover {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(14, 251, 255);
+}
+
+a:visited {
+  list-style: none;
+  text-decoration: none;
+  color:#a66 ;
+} 
+
+a:focus {
+  list-style: none;
+  text-decoration: none;
+  color: gray;
+}
+
 footer {
   background-color: darkturquoise;
 }

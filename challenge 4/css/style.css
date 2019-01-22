@@ -1,0 +1,51 @@
+/* base style */
+
+/* styling the divs/boxes */
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+}
+
+/* changing the background color on hover and active */
+
+div:hover {
+    background-color: aqua;
+}
+
+div:active {
+    background-color: gray;
+}
+
+/* changing the width for box3 and box4 on hover */
+
+.box3:hover {
+    width: 600px;
+}
+
+.box4:hover {
+    width: 50px;
+}

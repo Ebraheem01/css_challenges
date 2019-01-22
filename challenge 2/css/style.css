@@ -45,7 +45,9 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
-  
+
+/* styling my body   */
+
 body {
     font-family: 'Noto Serif SC', serif;
     font-size: 14px; 
@@ -54,9 +56,13 @@ body {
     word-spacing: 1px;
 }
 
+/* giving my header a background colour */
+
 header {
   background-color: darkturquoise;
 }
+
+/* styling my lists and links on hover */
 
 a:hover {
   list-style: none;
@@ -64,24 +70,20 @@ a:hover {
   color: rgb(14, 251, 255);
 }
 
+/* styling my lists and links on visited */
+
 a:visited {
   list-style: none;
   text-decoration: none;
   color:#a66 ;
 } 
 
+/* styling my lists and links on focus */
+
 a:focus {
   list-style: none;
   text-decoration: none;
   color: gray;
-}
-
-footer {
-  background-color: darkturquoise;
-}
-
-main {
-  background-color: red;
 }
 
 /* styling the headings */
@@ -97,5 +99,11 @@ h {
 /* indenting the section */
 
 section {
-    text-indent: 20px;
+  text-indent: 20px;
+}
+
+/* giving my footer a background color */
+
+footer {
+  background-color: darkturquoise;
 }

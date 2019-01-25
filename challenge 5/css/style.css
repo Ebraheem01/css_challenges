@@ -1,0 +1,21 @@
+/* base styles */
+
+/* font styling for my first paragraph */
+
+.paragraph1 {
+    font-size: 1.5em;
+    font-family: 'Noto Serif SC', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Slabo 27px', serif;
+}
+
+/* importing a font from google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Poppins|Ubuntu');
+
+.paragraph2 {
+    font-size: 1.5em;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}

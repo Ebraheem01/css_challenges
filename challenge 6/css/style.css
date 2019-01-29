@@ -1,0 +1,100 @@
+/* base styles */
+
+html {
+    background-color: aqua;
+    background-image: url(../images/soccer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+section {
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+/* styling my h1 using a text selector */
+
+h1 {
+    font-size: 1.8em;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* styling my p tag with a class selector */
+
+.paragraph {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+/* unvisited link */
+
+a:link {
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+/* visited link */
+
+a:visited {
+    color: #ff0000;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+/* hover/mouse over link */
+
+a:hover {
+    color: #0044ff;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+/* selected link */
+
+a:active {
+    color: #1eff00;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+/* styling the label with descendant selectors */
+
+div label {
+    font-family: fantasy;
+}
+
+/* styling all my placeholders */
+
+::placeholder {
+    color: red;
+    font-family: cursive;
+}
+
+/* styling a button  */
+
+button {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+/* styling the footer  */
+
+.footer {
+    font-family: cursive;
+    font-size: 0.5em;
+    width: auto;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 40px;
+    color: rgb(255, 0, 0);
+}
